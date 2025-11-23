@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Backgrounds & Shadows</title>
+  </head>
+  <body>
+    <!-- Background Images -->
+    <!-- https://tailwindcss.com/docs/background-image -->
+    <!-- <div 
+    class="h-screen w-full bg-cover bg-no-repeat bg-center"
+    style="background-image: url('pic.jpg');"
+    >
+  </div> -->
+  
+    <!-- Shadows -->
+    <!-- https://tailwindcss.com/docs/drop-shadow -->
+     <div class="flex flex-wrap ">
+      <div class="w-[400px] mt-10 ml-4 p-3 shadow-md">Shadow Medium</div>
+      <div class="w-[400px] mt-10 ml-7 p-3 shadow-lg">Shadow Large</div>
+      <div class="w-[400px] mt-10 ml-7 p-3 shadow-xl">Shadow Extra Large</div>
+      <div class="w-[400px] mt-10 ml-7 p-3 shadow-inner">Inner Shadow </div>
+      <div class="w-[400px] mt-10 ml-7 p-3 shadow-lg shadow-blue-300/40">Coloured Shadow </div>
+      <!-- Coloured Shadow -->
+     </div>
+
+    <!-- I know we didn't cover flexbox, but it's just for demo purposes -->
+
+    <!-- Gradients -->
+    <!-- https://tailwindcss.com/docs/gradient-color-stops -->
+     <div class="h-40 bg-gradient-to-b from-blue-100 to-blue-500 m-10 text-center p-40">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptate.</div>
+     <div class="h-40 bg-gradient-to-r from-blue-100 to-blue-500 m-10 text-center p-40">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptate.</div>
+     <div class="h-40 bg-gradient-to-l from-blue-100 to-blue-500 m-10 text-center p-40">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptate.</div>
+     <div class="h-40 bg-gradient-to-r from-cyan-500 via-blue-500 to-teal-500 p-40 m-20">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, quos?</div>
+  </body>
+</html>
